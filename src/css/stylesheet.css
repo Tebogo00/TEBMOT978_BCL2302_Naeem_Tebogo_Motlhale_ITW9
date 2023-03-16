@@ -1,0 +1,218 @@
+html {
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgba(156, 140, 120, 0.634);
+    background-size: cover;
+    height: 100vh;
+    background-position: left;
+}
+
+.header {
+    background-image: url(./image/background.jpg);
+    background-color: rgba(0,0,0,.1);
+    width: 100%;
+    position: sticky;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 2px;
+    padding: 20px;
+    transition: all ease 0.5s;
+    gap: 10em;
+    width: 150px;
+}
+
+.header ul li a:hover {
+    background-color: aqua;
+    scale: 0.8;
+    border-radius: 25px;
+}
+
+/*Home section*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.3);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.image {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: auto;
+}
+
+marquee {
+    color: white;
+    background-color:rgba(0, 0, 0, 0.284);
+    padding: 1px;
+}
+
+
+img {
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+
+
+/*education section*/
+
+#education {
+    background-image: url(./image/background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+
+
+.container1 {
+    font-size: large;
+    padding-top: 25%;
+    margin: 0;
+    margin-right: 50%;
+}
+
+
+/*skills*/
+
+#skills {
+    background-image: url(./image/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+
+.container2 {
+    font-size: large;
+    padding-top: 25%;
+    margin: 0;
+    margin-right: 50%;
+}
+
+
+
+
+
+/*contact section*/
+
+#contact {
+    background: url(./image/footer.JPEG);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.284);
+    color: white;
+    padding: 20px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: left;
+    margin: 20px 0px;
+}
+
+.input{
+    width: 30%;
+    border-radius: 10%;
+    display: flex;
+}
+
+#msg {
+    border-radius: 5%;
+    width: 50%;
+}
+
+#send {
+    width: 10%;
+}
+
+#send:hover {
+    background-color: rgba(222, 215, 215, 0.46);
+    cursor: pointer;
+    scale: 0.8;
+}
+
+.socials
+{
+    font-size: x-large;
+    background: black;
+    width: 25%;
+    height: 20%;
+    color:bisque;
+    margin-left:25%;
+    align-items: center;
+}
+
+
+
+/*for tablet*/
+@media (min-width: 768px)
+{
+
+    html {
+        margin: 0;
+        overflow: hidden;
+    }
+
+    body {
+        
+        height: 150vh;
+        background-position: left;
+    }
+
+    
+/*education section*/
+
+#education {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+    
+
+}
+
+/*for mobile*/
+
+
+@media(min-width: 320) {
+    html {
+        margin: 0;
+        overflow: hidden;
+    }
+    
+
+    img{
+        width: 20%;
+        height: auto;
+    }
+}
