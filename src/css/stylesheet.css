@@ -204,7 +204,7 @@ img {
 /*for mobile*/
 
 
-@media(min-width: 320) {
+@media(min-width: 320px) {
     html {
         margin: 0;
         overflow: hidden;
@@ -214,5 +214,18 @@ img {
     img{
         width: 20%;
         height: auto;
+    }
+}
+
+/*for tablet*/
+
+@media(min-width :720px) {
+
+    .container2 {
+        font-size: large;
+        padding-top: 25%;
+        margin: 0;
+        margin-right: 50%;
+        color: white;
     }
 }
